@@ -96,11 +96,19 @@ class Content extends React.Component {
                                     </div>
                                 </div>
                             </div>
+                            <div class="flex">
+                                <div class="col colg noT noB">
+                                    <p class="head m-t-0">
+                                    Source / Destination
+                                    </p>
+                                </div>
+                            </div>
                             <div class="flex tab-content">
                                 <div class="cell full">
+                                    
                                     <p class="body m-b-0">
                                     <div class="flex">
-                                        <div class="col colg noB path origin">
+                                        <div class="col colg noB noT path origin">
                                             <div class="state green">P1</div>
                                             <p class="head m-t-0">
                                                 1 May 2021, 06:20 AM 
