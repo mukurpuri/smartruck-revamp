@@ -1,0 +1,31 @@
+.co {
+    ul {
+        padding: 0;
+        list-style: none;
+        font-family: 'Nunito';
+        font-weight: bold;
+        li {
+            margin: 1rem;
+            padding: 0.5rem 1rem;
+            &.active,&:hover {
+                a {
+                    color: white !important;
+                    svg {
+                        color: white !important;
+                    }
+                }
+                background-color: #0000003d;
+                border-radius: 5px;
+            }
+        }
+        a {
+            color: #eedfff;
+            svg {
+                margin-right: 1rem;
+                width: 14px;
+                vertical-align: middle;
+                color: #d5c2eb;
+            }
+        }
+    }
+}

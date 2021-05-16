@@ -1,0 +1,34 @@
+// Theme settings
+@import "../base/settings";
+.btn-primary {
+  background-color: $brand-primary;
+  color: contrast-color($brand-primary);
+  &:hover,&:focus {
+    background-color: lighten($brand-primary,20%);
+    color: contrast-color(lighten($brand-primary,20%));
+  }
+  &:active,&.active {
+    background-color: lighten($brand-primary,25%);
+    color: contrast-color(lighten($brand-primary,25%));
+  }
+}
+
+.btn-default {
+  background-color: white;
+  color: contrast-color(white);
+  &:hover,&:focus {
+    background-color: darkenb(white,20%);
+    color: contrast-color(darken(white,20%));
+  }
+  &:active,&.active {
+    background-color: darken(white,25%);
+    color: contrast-color(darken(white,25%));
+  }
+}
+
+body {
+  background-color: $page-bg;
+}
+p,div,body {
+  font-family: 'Source Sans Pro', sans-serif;
+}

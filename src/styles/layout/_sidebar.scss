@@ -1,0 +1,13 @@
+.sidebar {
+    background: $sidebar-bg;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 12;
+    width: $sidebar-width;
+    .head-logo {
+      border-bottom: 1px solid $sidebar-border-color;
+    }
+  }
+  

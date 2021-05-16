@@ -1,0 +1,64 @@
+
+@media screen and (min-width: 701px){
+    .mob-show{
+        display: none;
+    }
+}
+@media screen and (max-width: 700px){
+    .mob-show {
+        display: block;
+    }
+    .mob-hidden {
+        display: none;
+    }
+}
+
+.mob-panel {
+    display: none;
+}
+.header {
+    display: none;
+}
+@media screen and (max-width: 500px){
+    .header {
+        display: flex;
+    }
+    .mob-panel {
+        display: block;
+    }
+    .sidebar {
+        display: none;
+    }
+    .content {
+        padding-left: 0;
+    }
+    .wrapper {
+        background-repeat: no-repeat;
+        background-size: 1054px;
+        background-position: -277px 0px;
+        overflow: hidden;
+    }
+    .panel {
+        width: 100% !important;
+        position: fixed;
+        height: 60vh;
+        overflow-y: auto;
+        padding-bottom: 4rem;
+        .head {
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+    }
+    .dp {
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 1rem;
+    }
+    .driver-info {
+        //text-align: center;
+    }
+}
+
+
+
+
