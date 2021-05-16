@@ -117,7 +117,7 @@ class Content extends React.Component {
                                                 8 May 2021, 7:00 AM 
                                             </p>
                                             <p class="sub-head m-t-0 value">
-                                            Plot No.B-1, 2nd Phase Industrial Area, Adityapur, Adityapur Industrial Area, Adityapur, Jamshedpur, Jharkhand 832109, India
+                                                A14 15,sttel town,sarkhej bavla highway,gram moriya, tal sanand,changodar 
                                             </p>
                                         </div>
                                     </div>
