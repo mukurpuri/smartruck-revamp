@@ -226,3 +226,39 @@
         border-bottom :1px dotted;
     }
 }
+.path {
+    padding-left: 5rem !important;
+    position: relative;
+
+    &.origin {
+        &:after {
+            content: "";
+            width: 1px;
+            border-right: 2px dashed #909090;
+            height: 100%;
+            position: absolute;
+            top: 48px;
+            left: 30px;
+        }
+    }
+
+    .state {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 50% 50%;
+        border: 0;
+        left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        z-index: 1;
+        &.red {
+            background-color: #ff2525;
+        }
+        &.green {
+            background-color: #4caf50;
+        }
+    }
+}

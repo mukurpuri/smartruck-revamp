@@ -64,6 +64,7 @@ class Content extends React.Component {
                     {
                         screen === 1 ?
                         <React.Fragment>
+                            
                             <div class="flex tab-content">
                                 <div class="cell full">
                                     <p class="body m-b-0">
@@ -93,6 +94,34 @@ class Content extends React.Component {
                                     <p class="sub-head m-t-0 value">
                                         NH47, Sanand Taluka, Ahmedabad District, Gujarat, India</p>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="flex tab-content">
+                                <div class="cell full">
+                                    <p class="body m-b-0">
+                                    <div class="flex">
+                                        <div class="col colg noB path origin">
+                                            <div class="state green">P1</div>
+                                            <p class="head m-t-0">
+                                                1 May 2021, 06:20 AM 
+                                            </p>
+                                            <p class="sub-head m-t-0 value">
+                                            Plot No.B-1, 2nd Phase Industrial Area, Adityapur, Adityapur Industrial Area, Adityapur, Jamshedpur, Jharkhand 832109, India
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="flex">
+                                        <div class="col colg noT  path">
+                                            <div class="state red">D1</div>
+                                            <p class="head m-t-0">
+                                                8 May 2021, 7:00 AM 
+                                            </p>
+                                            <p class="sub-head m-t-0 value">
+                                            Plot No.B-1, 2nd Phase Industrial Area, Adityapur, Adityapur Industrial Area, Adityapur, Jamshedpur, Jharkhand 832109, India
+                                            </p>
+                                        </div>
+                                    </div>
+                                    </p>
                                 </div>
                             </div>
                             <div class="flex">
