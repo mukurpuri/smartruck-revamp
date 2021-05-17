@@ -97,7 +97,7 @@ class Content extends React.Component {
                                 </div>
                             </div>
                             <div class="flex">
-                                <div class="col colg noT noB">
+                                <div class="col colg noT noB p-b-0">
                                     <p class="head m-t-0">
                                     Source / Destination
                                     </p>
